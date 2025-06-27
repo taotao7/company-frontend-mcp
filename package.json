@@ -1,0 +1,20 @@
+{
+  "name": "jingle-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mcp:install": "cd src/mcp-server && pnpm install",
+    "mcp:build": "cd src/mcp-server && pnpm build",
+    "mcp:start": "cd src/mcp-server && pnpm start",
+    "mcp:dev": "cd src/mcp-server && pnpm dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.1",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2"
+  }
+}

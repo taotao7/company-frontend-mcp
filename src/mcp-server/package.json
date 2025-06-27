@@ -1,0 +1,20 @@
+{
+  "name": "jingle-page-guidelines-mcp",
+  "version": "1.0.0",
+  "description": "MCP服务器，用于提供Jingle Frontend项目的页面创建规范",
+  "type": "module",
+  "main": "page-guidelines-server.js",
+  "scripts": {
+    "start": "node page-guidelines-server.js",
+    "build": "tsc",
+    "dev": "tsx page-guidelines-server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "@types/node": "^20.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0"
+  }
+}

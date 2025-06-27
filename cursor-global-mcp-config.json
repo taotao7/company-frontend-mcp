@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "jingle-page-guidelines": {
+      "command": "node",
+      "args": [
+        "/Users/tao/workspace/jingle-frontend/src/mcp-server/dist/page-guidelines-server.js"
+      ],
+      "env": {}
+    }
+  }
+}

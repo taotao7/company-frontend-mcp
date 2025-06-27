@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "jingle-page-guidelines": {
+      "command": "node",
+      "args": ["src/mcp-server/dist/page-guidelines-server.js"],
+      "env": {}
+    }
+  }
+}
